@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+  <a href="index.html">Home</a>
+  <a href="cart.html">Cart</a>
+</div>
+
+    <div class="top-bar">
+  <div class="company">
+    <strong>My Store</strong><br>
+    📞 +91 7002832487
+  </div>
+
+  <div class="account">
+    👤 Guest<br>
+    kamal.das@icloud.com
+  </div>
+</div>
+
+<h1>My Store</h1>
+
+<div class="container">
+
+  <div class="product">
+    <img src="images/serum.jpg">
+    <h2>serum</h2>
+    <p>₹999</p>
+    <button onclick="addToCart('serum', 499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/cream.jpg">
+    <h2>cream</h2>
+    <p>₹499</p>
+    <button onclick="addToCart('cream', 1499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/facewash.jpg">
+    <h2>facewash</h2>
+    <p>₹1499</p>
+    <button onclick="addToCart('facewash', 1499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/shampoo.jpg">
+    <h2>shampoo</h2>
+    <p>₹299</p>
+    <button onclick="addToCart('shampoo', 299)">Add to Cart</button>
+  </div>
+
+</div>
+
+
+
+<h2>📦 Orders</h2>
+<p>No orders yet</p>
+<script src="script.js"></script>
+
+
+</body>
+</html>
